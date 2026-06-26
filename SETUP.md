@@ -375,14 +375,11 @@ matplotlib>=3.7   # for visualisation scripts only — not required for solve.py
 Quick commands for inspecting results (require matplotlib):
 
 ```bash
-# Overlay: official (red) vs corrected (green) vs truth (blue)
-uv run --with matplotlib python3 view_predictions.py
 
 # Fused edge map: Sobel vs boundaries vs fused side-by-side
 uv run --with matplotlib python3 view_fused_edges.py
 
-# Uncertainty map: edge coherence, shows where trees block registration
-uv run --with matplotlib python3 visualize_uncertainty.py
+
 ```
 
 ---
