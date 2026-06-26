@@ -1,0 +1,10 @@
+# Ignore large raster files
+*.tif
+
+# Keep predictions output in the repo
+!**/predictions.geojson
+
+# Common ignores
+.DS_Store
+__pycache__/
+*.pyc
